@@ -53,7 +53,7 @@ async function getStatus() {
             abi.abi,
             "0x8509E248fcca25BA3fe35Be5D3Ad5b20f7380967",
         )
-        const tx = await contract.methods.imageId("1").call();
+        const tx = await contract.methods.imageId("2").call();
         console.log(tx);
     } catch (e) {
         console.log(e);
